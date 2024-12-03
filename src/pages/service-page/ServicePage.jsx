@@ -28,20 +28,20 @@ const ServicePage = () => {
     return (
         <div className="card-container">
             <Grid gap={"m"} cols={3}>
-                {services.map((card, index) => (
-                    <Link to={`http://localhost:3000/service/${card.id}`}>
-
-                    <GridItem key={index}>
-                        <Card verticalSpace="m" horizontalSpace="xl" form="round" className="rounded-card-main">
+                {services.map((card) => (
+                    <Link to={`http://localhost:3000/service/${card.id}`} key={card.id}>
+                        <GridItem>
+                            <Card verticalSpace="m" horizontalSpace="xl" form="round" className="rounded-card-main">
                                 <Text size="m" weight="bold" align="center" className="card-main-text">{card.name}</Text>
-                            <Text align="left">{card.description}</Text>
-                        </Card>
-                    </GridItem>
+                                <Text align="left">{card.description}</Text>
+                            </Card>
+                        </GridItem>
                     </Link>
                 ))}
             </Grid>
         </div>
     );
+
 }
 
 export default ServicePage;
