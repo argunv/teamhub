@@ -1,0 +1,37 @@
+.rounded-card-main {
+    margin-bottom: 16px; /* Увеличенный отступ для лучшей читаемости */
+    border-radius: 15px; /* Умеренно скругленные углы */
+    border: 1px solid #d1d9e6; /* Светлая рамка для минимализма */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Более мягкая тень */
+    text-align: left;
+    position: relative;
+    padding: 20px; /* Увеличенные отступы внутри карточки */
+    background: linear-gradient(135deg, #ffffff, #f7faff); /* Легкий градиент фона */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анимация при наведении */
+}
+
+.rounded-card-main:hover {
+    transform: translateY(-5px); /* Карточка слегка поднимается */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Увеличение тени при наведении */
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 15px; /* Немного больше пространства */
+    right: 15px;
+    text-align: right;
+    padding-top: 10px;
+    font-size: 14px; /* Меньший текст для ненавязчивости */
+    color: #4a90e2; /* Цвет акцента для футера */
+}
+
+.card-footer a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #4a90e2; /* Синий акцент для ссылок */
+    font-weight: bold; /* Жирный текст для выделения */
+    transition: color 0.3s ease; /* Анимация цвета при наведении */
+}
+
+.card-footer a:hover {
+    color: #003f88; /* Темный синий цвет при наведении */
+}

@@ -1,0 +1,23 @@
+.rounded-card-service-detail-page{
+    margin-bottom: 8px;
+    border-radius: 20px;
+    border: 2px solid #4a90e2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    padding-bottom: 27px;
+    padding-top: 10px;
+}
+
+.service-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service-detail-image {
+    width: 100%; /* ширина изображения */
+    height: auto; /* автоматическая высота */
+    border-radius: 8px; /* радиус углов */
+    margin-bottom: 16px; /* отступ снизу */
+}

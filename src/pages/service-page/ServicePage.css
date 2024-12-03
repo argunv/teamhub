@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.rounded-card {
+    border-radius: 20px;
+    border: 2px solid #4a90e2;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 16px);
+    box-sizing: border-box;
+}
+
+.card-container a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: inherit; /* Наследует цвет текста от родителя */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.service-detail-image {
+    margin: 20px 0;
+}

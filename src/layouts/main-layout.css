@@ -1,0 +1,36 @@
+.main-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.divider {
+    margin: 8px 0; /* Отступ сверху и снизу для <hr /> */
+    border: 1px solid #4a90e2; /* граница */
+}
+
+.button-group {
+    display: flex;
+    gap: 5px; /* Отступ между кнопками в группе */
+}
+
+.button-margin {
+    margin-right: 5px; /* Отступ между кнопками */
+}
+
+.button-margin:last-child {
+    margin-right: 0; /* Убираем отступ у последней кнопки */
+}
+
+.nav-button {
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.profile-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
